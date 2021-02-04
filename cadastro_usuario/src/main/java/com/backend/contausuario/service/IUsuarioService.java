@@ -9,4 +9,6 @@ public interface IUsuarioService {
 	Usuario findById(Long id);
 
 	Usuario findByToken(String token);
+	
+	Usuario update(Long id);
 }
